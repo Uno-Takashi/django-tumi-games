@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "steam_tumi_games", "steam_tumi_games\steam_tumi_games.pyproj", "{245FF740-BD05-4B3B-91DC-162ADA03987B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{245FF740-BD05-4B3B-91DC-162ADA03987B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245FF740-BD05-4B3B-91DC-162ADA03987B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245FF740-BD05-4B3B-91DC-162ADA03987B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245FF740-BD05-4B3B-91DC-162ADA03987B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {240FC225-BC60-4A80-984A-A95723F3D8E6}
+	EndGlobalSection
+EndGlobal
