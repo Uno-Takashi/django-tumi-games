@@ -1,0 +1,54 @@
+{% extends "app/layout.html" %}
+
+
+{% block stylesheet %}
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/home_logout.css' %}" />
+
+{% endblock %}
+
+
+{% block area %}
+<div class="context">
+    <div class="container-fluid">
+        <div class="col-lg-5 col-md-5 col-sm-4 col-xs-1" ></div>
+        <div class="col-lg-3 col-md-3  col-sm-4 col-xs-10 login_area" align="center">
+            <h1>{{common_datas.site_name}}</h1>
+            <div class="login_steam">
+                <p>
+                    steamアカウントに接続して解析
+                </p>
+                <a href="/accounts/steam/login"><img src="{% static 'app/images/steam_login_button.png' %}"></a>
+            </div>
+            <div class="search_steam">
+                <p>
+                    steamIDから解析
+                </p>
+<div class="cp_iptxt">
+	<label class="ef">
+	<input type="text" placeholder="Steam ID">
+	</label>
+</div>
+
+
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-5  col-sm-4 col-xs-1"></div>
+    </div>
+</div>
+<div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+{% endblock %}

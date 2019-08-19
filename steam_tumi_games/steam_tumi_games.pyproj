@@ -56,8 +56,10 @@
     <Folder Include="steam_tumi_games\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\content\home_logout.css" />
     <Content Include="app\static\app\images\steam_login_button.png" />
     <Content Include="app\static\app\images\sits_02.png" />
+    <Content Include="app\templates\app\index_login.html" />
     <Content Include="requirements.txt" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
@@ -83,7 +85,7 @@
     <Content Include="app\static\app\scripts\_references.js" />
     <Content Include="app\templates\app\about.html" />
     <Content Include="app\templates\app\contact.html" />
-    <Content Include="app\templates\app\index.html" />
+    <Content Include="app\templates\app\index_logout.html" />
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
